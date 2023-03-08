@@ -19,6 +19,10 @@ Results :
 Parts with poor ratio in holes data are ,     has_unreachable_hole_warning = 99
 Parts with critical ratio in holes data are , has_unreacheable_hole_error  = 17
 
+Assumptions :
+--------------
+1.If one of the key in holes json satisfies above condition I have assumed the part is either poor ratio or critical ratio.
+2.Considered <NA> missing data in holes row as [0,0] in a list.
 
 
 
