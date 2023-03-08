@@ -9,7 +9,7 @@ Insights on data.
 
 Objective:
 -----------
-If holes data satisfies the below two conditions then create two new columns
+If holes data satisfies the below two conditions then update bool values to newly created columns.
 
 1. 𝑙𝑒𝑛𝑔𝑡ℎ > 𝑟𝑎𝑑𝑖𝑢𝑠 * 2 * 10 (𝑝𝑜𝑜𝑟 𝑟𝑎𝑡𝑖𝑜)    => has_unreachable_hole_warning
 2. 𝑙𝑒𝑛𝑔𝑡ℎ > 𝑟𝑎𝑑𝑖𝑢𝑠 * 2 * 40 (𝑐𝑟𝑖𝑡𝑖𝑐𝑎𝑙 𝑟𝑎𝑡𝑖𝑜)  => has_unreacheable_hole_error
